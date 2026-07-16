@@ -1,0 +1,6 @@
+{
+  "name": "PDF Reader",
+  "description": "An offline-first Android PDF Reader utilizing Mozilla's PDF.js and Jetpack Compose.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

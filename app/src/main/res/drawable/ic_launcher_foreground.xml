@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- PDF Document Base Page -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M30,22 L62,22 L78,38 L78,86 C78,88.2 76.2,90 74,90 L34,90 C31.8,90 30,88.2 30,86 Z" />
+    
+    <!-- White Inner Page for contrast -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,26 L60,26 L74,40 L74,84 C74,85.1 73.1,86 72,86 L36,86 C34.9,86 34,85.1 34,84 Z" />
+
+    <!-- Folded Corner Background -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M60,26 L74,40 L60,40 Z" />
+
+    <!-- Folded Corner Shadow/Accent -->
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M60,40 L74,40 L60,40 Z" />
+
+    <!-- Crimson Bold PDF Header Badge on the page -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M38,48 C38,46.9 38.9,46 40,46 L68,46 C69.1,46 70,46.9 70,48 L70,68 C70,69.1 69.1,70 68,70 L40,70 C38.9,70 38,69.1 38,68 Z" />
+
+    <!-- White PDF Letters on Badge -->
+    <!-- Letter P -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,51 L48,51 C49.1,51 50,51.9 50,53 L50,56 C50,57.1 49.1,58 48,58 L45,58 L45,64 L43,64 Z M45,53 L45,56 L48,56 L48,53 Z" />
+        
+    <!-- Letter D -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,51 L56,51 C58.2,51 59,52.8 59,57.5 C59,62.2 58.2,64 56,64 L52,64 Z M54,53 L54,62 L56,62 C57,62 57,60.5 57,57.5 C57,54.5 57,53 56,53 Z" />
+
+    <!-- Letter F -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61,51 L67,51 L67,53 L63,53 L63,56 L66,56 L66,58 L63,58 L63,64 L61,64 Z" />
+
+    <!-- Decorative Text Lines below the badge -->
+    <path
+        android:fillColor="#757575"
+        android:pathData="M38,76 L70,76 L70,78 L38,78 Z" />
+    <path
+        android:fillColor="#9E9E9E"
+        android:pathData="M38,81 L58,81 L58,83 L38,83 Z" />
+
+</vector>
